@@ -1,0 +1,26 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "daily": "./.scripts/index.sh"
+  },
+  "dependencies": {
+    "glob": "^7.1.6",
+    "front-matter": "^4.0.2",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexJenter/notes.git"
+  },
+  "keywords": [],
+  "author": "Alex Jenter <jenteralex@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexJenter/notes/issues"
+  },
+  "homepage": "https://github.com/AlexJenter/notes#readme"
+}

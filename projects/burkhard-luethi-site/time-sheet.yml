@@ -1,0 +1,125 @@
+# All Durations are in hours
+- Date: 1534975200 # 23 AUG 18
+  State: open
+  Duration: 4
+  Task: Meeting — Kickoff Ideenfindung
+- Date: 1535061600 # 24. AUG 18
+  State: open
+  Duration: 3
+  Task: Setup — Server Hostpoint
+- Date: 1535061600 # 24. AUG 18
+  State: open
+  Duration: 2
+  Task: Setup — Prototyp
+- Date: 1536789600 # 13. SEP 18
+  State: open
+  Duration: 5
+  Task: Meeting — Zwischenbesprechung Prototyp
+- Date: 1539468000 # 14 OKT 18
+  State: open
+  Duration: 6
+  Task: Code — Raster Layout
+- Date: 1539813600 # 18. OKT 18
+  State: open
+  Duration: 4
+  Task: Meeting — Dimitri Graphisches Bild
+- Date: 1539986400 # 20 OKT 18
+  State: open
+  Duration: 3
+  Task: Code — Mobile Layout
+- Date: 1541026800 # 1 Nov 2018
+  State: open
+  Duration: 2
+  Task: Meeting
+- Date: 1541718000 # 9 NOV 18
+  State: open
+  Duration: 3.3
+  Task: Änderungen nach review Meeting
+- Date: 1544396400 # 10 DEZ 18
+  State: open
+  Duration: 3.6
+  Task: Änderungen nach review Meeting
+- Date: 1547420400 # 14 JAN 19
+  State: open
+  Duration: 1.5
+  Task: Meeting
+- Date: 1547420400 # 14 JAN 19
+  State: open
+  Duration: 2
+  Task: Änderungen nach review Meeting
+- Date: 1548889200 # 31 JAN 19
+  State: open
+  Duration: 2.8
+  Task: Tooling
+- Date: 1548975600 # 1 FEB 19
+  State: open
+  Duration: 7.7
+  Task: Responsive Images
+- Date: 1549234800 # 4 FEB 19
+  State: open
+  Duration: 7
+  Task: Slides
+- Date: 1549839600 # 11 FEB 19
+  State: open
+  Duration: 3.2
+  Task: Deploy to dev hostpoint setup backup setup
+- Date: 1550617200 # 20 FEB 19
+  State: open
+  Duration: 2
+  Task: Bild Platzhalter
+- Date: 1550790000 # 22 FEB 19
+  State: open
+  Duration: 3.3
+  Task: Home
+- Date: 1550790000 # 22 FEB 19
+  State: open
+  Duration: 3.8
+  Task: Kategorien
+- Date: 1550962800 # 24 FEB 19
+  State: open
+  Duration: 1.1
+  Task: Slides
+- Date: 1551049200 # 25 FEB 19
+  State: open
+  Duration: 4.25
+  Task: Review Dimi
+- Date: 1551135600 # 26 FEB 19
+  State: open
+  Duration: 2.3
+  Task: Nav
+- Date: 1551135600 # 26 FEB 19
+  State: open
+  Duration: 2.3
+  Task: Nav
+- Date: 1551222000 # 27 FEB 19
+  State: open
+  Duration: 3.75
+  Task: stuff
+- Date: 1551308400 # 28 FEB 19
+  State: open
+  Duration: 5.2
+  Task: client review
+- Date: 1551308400 # 28 FEB 19
+  State: open
+  Duration: 3
+  Task: bug fixing
+- Date: 1571868000 # 24 OCT 19
+  State: open
+  Duration: 4.5
+  Task: Review
+- Date: 1572217200 # 28 OCT 19
+  State: open
+  Duration: 2
+  Task: Bugfix
+- Date: 1572303600 # 29 OCT 19
+  State: open
+  Duration: 1
+  Task: Overview backend changes
+- Date: 1572390000 # 30 OCT 19
+  State: open
+  Duration: 2
+  Task: Database & Files sync scripts
+- Date: 1612986990 #Wed 10 Feb 2021
+  State: open
+  Duration: 1
+  Task: wordpress updates on production environment

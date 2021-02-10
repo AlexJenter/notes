@@ -4,9 +4,7 @@
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "editor.lineHeight": 24,
-  "[markdown]": {
-    "editor.quickSuggestions": true
-  },
+  "editor.rulers": [],
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "files.defaultLanguage": "markdown",
@@ -16,9 +14,49 @@
   "files.watcherExclude": {
     "**/node_modules": true
   },
+  "[markdown]": {
+    "editor.wordWrap": "off",
+    "editor.quickSuggestions": true
+  },
+  "markdownlint.config": {
+    "MD033": false,
+    "MD018": false
+  },
+  "align.by.regex.templates": {
+    "csv": ", "
+  },
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
   "foam.edit.linkReferenceDefinitions": "withExtensions",
-  "foam.openDailyNote.directory": "journal",
-  "foam.openDailyNote.titleFormat": "fullDate",
+  "foam.openDailyNote.directory": "daily",
+  "foam.openDailyNote.fileExtension": "mdx",
+  "foam.openDailyNote.titleFormat": "''dddd, d mm yy",
+  "foam.openDailyNote.filenameFormat": "yyyy-mm-dd-ddd",
+  "auto-run-command.rules": [
+    {
+      "condition": "hasFile: .vscode/foam.json",
+      "command": "foam-vscode.open-daily-note",
+      "message": "Have a nice day!"
+    }
+  ],
+  "note-macros": {
+    "weekly": [
+      {
+        "type": "note",
+        "directory": "weekly",
+        "extension": ".mdx",
+        "name": "KW",
+        "date": "W"
+      }
+    ],
+    "project": [
+      {
+        "type": "note",
+        "directory": "projects",
+        "extension": ".mdx",
+        "name": "projectproject",
+        "date": "yyyy-mm-dd"
+      }
+    ]
+  }
 }

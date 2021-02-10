@@ -1,0 +1,104 @@
+.uppername,
+.my-test-class,
+.team_low_right a,
+.text_offer h3,
+.avia_textblock b,
+.avia_textblock h2,
+.avia-menu-text,
+html .home-header .subtitle p,
+#top .contact-data-text h3,
+.template-page .entry-content-wrapper h2 {
+  font-family: "Roboto Condensed", sans-serif !important;
+  letter-spacing: normal;
+  font-weight: 700 !important;
+  color: #000000;
+}
+
+h1,
+html,
+body,
+div,
+span,
+p,
+li,
+a,
+html .home-header h1,
+html .home-header h1,
+html .home-header p,
+.team_low_left p,
+.popup_desc,
+.popup_desc p,
+.text_offer p,
+.text_test,
+.pos_test,
+.filterby,
+.upperpos,
+.avia_textblock *,
+.avia_textblock *,
+.heading_subpage .avia_textblock p,
+.template-page .entry-content-wrapper h1,
+#top .contact-data-text p,
+#footer .menu li a,
+#footer .container .av_one_third:first-child .textwidget > div,
+#footer .container .av_one_third:nth-child(3) p {
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-weight: 300 !important;
+  color: #000000;
+}
+
+#footer .container .av_one_third:first-child .textwidget > div {
+  color: #ffffff;
+}
+
+/* solid colors */
+h1::after,
+h2::after,
+.morebutton,
+.upperimg::after,
+.portitem .exitedspan,
+.popup_port .exitedspan,
+.scrolldown a.avia-button,
+.oddrow.odd:after,
+.owarrowleft:hover,
+.owarrowright:hover,
+.heading_subpage .avia_textblock::after,
+.contact-data .half-with-dot::after,
+.testimonials .av_two_fifth.first::after,
+.testimonials .av_two_fifth:not(.first)::after,
+#top .slick-dots li.slick-active button:before,
+#footer .container .av_one_third:first-child,
+#footer .container .av_one_third:first-child::after,
+#footer .container .av_one_third:first-child::before {
+  background-color: #790fff !important;
+}
+
+#footer,
+.heading-bged,
+.team_upperer,
+.bgedleft:before,
+.portitem:hover,
+.team_lower_inner,
+.team_lower_inner::after,
+.family_wrap .familymember,
+.testimonials .av_three_fifth .inner_test,
+.testimonials .av_three_fifth.first .inner_test,
+.heading_subpage .avia_textblock::before {
+  background-color: #f7f5fa;
+}
+
+/* text elements */
+.popup_link a,
+.avia_textblock p a,
+.portfolioitem a,
+#top .family_hash,
+.avia-menu-text:hover,
+.filterby.filterclickable.active,
+html .av-main-nav > li.current-menu-item > a .avia-menu-text {
+  color: #790fff !important;
+}
+
+/* images */
+.ah_ow_author,
+.offer .avia-image-container .avia_image {
+  filter: hue-rotate(-48deg);
+}
