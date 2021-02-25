@@ -9,8 +9,26 @@ project manager
 repository
 : [bitbucket](https://bitbucket.org/hinderlingvolkart/grand-bellevue-frontend/src/master/)
 
-## Issues
+## Markup Changes
 
-- [New Design for "Book Now" Button](https://hinderlingvolkart.atlassian.net/browse/BG-21)
-- [Banner Extension](https://hinderlingvolkart.atlassian.net/browse/BG-22)
-- header logo cuttoff on my screen
+```html
+<!-- before -->
+<a href="#" class="NewsBadge">
+  <div class="NewsBadge--media">...</div>
+  <div class="NewsBadge--text">
+    <p>...</p>
+  </div>
+</a>
+
+<!-- after -->
+<a href="#" class="NewsBadge">
+  <div class="NewsBadge--media">...</div>
+  <div class="NewsBadge--text">
+    <!-- repeat per item -->
+    <h3 class="NewsBadge--heading">...</h3>
+    <p class="NewsBadge--paragraph">...</p>
+    <!-- /END repeat per item -->
+    ...
+  </div>
+</a>
+```

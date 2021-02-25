@@ -34,11 +34,11 @@
 - Date: 1541718000 # 9 NOV 18
   State: open
   Duration: 3.3
-  Task: Änderungen nach review Meeting
+  Task: kleine Änderungen nach review Meeting
 - Date: 1544396400 # 10 DEZ 18
   State: open
   Duration: 3.6
-  Task: Änderungen nach review Meeting
+  Task: kleine Änderungen nach review Meeting
 - Date: 1547420400 # 14 JAN 19
   State: open
   Duration: 1.5
@@ -46,7 +46,7 @@
 - Date: 1547420400 # 14 JAN 19
   State: open
   Duration: 2
-  Task: Änderungen nach review Meeting
+  Task: kleine Änderungen nach review Meeting
 - Date: 1548889200 # 31 JAN 19
   State: open
   Duration: 2.8
@@ -86,11 +86,11 @@
 - Date: 1551135600 # 26 FEB 19
   State: open
   Duration: 2.3
-  Task: Nav
+  Task: Navigation
 - Date: 1551135600 # 26 FEB 19
   State: open
   Duration: 2.3
-  Task: Nav
+  Task: Navigation
 - Date: 1551222000 # 27 FEB 19
   State: open
   Duration: 3.75
@@ -122,4 +122,4 @@
 - Date: 1612986990 #Wed 10 Feb 2021
   State: open
   Duration: 1
-  Task: wordpress updates on production environment
+  Task: Wordpress Updates auf live Umgebung

@@ -1,9 +1,10 @@
 ---
 Title: Burkhard-luethi-site
 Company: self
+Client: [[burkhart-luethi]]
 ---
 
-## ops scripts on server
+## Ops Scripts On Server
 
 - `./scripts/db-dumps`
 - `./scripts/db-sync.sh`
@@ -13,7 +14,7 @@ Company: self
 - `./scripts/update-production.sh`
 - `./scripts/wp`
 
-## log
+## Log
 
 - `10 Feb 2021 at 20:51:43`
 
@@ -28,4 +29,4 @@ Company: self
   1. inital copy and cleanup of `B&L_Stunden.csv` resulting in `stunden-copy.csv`
   2. `mlr --c2j cat stunden-copy.csv | pbcopy` output to json in order to work with `jq`,
   3. `jq '.[] | . + {state:"open"}' stunden.json | jq -s | yq e -P > stunden.yml` add state of open per item and output as yml
-  4. h
+  4. translated all dates to timestamps and checked for errors in reverse
