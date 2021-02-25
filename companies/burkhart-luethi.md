@@ -7,4 +7,5 @@ Address:
   Street: Dufourstrasse 35
   City: Zürich
   Zip: 8008
+Project: [[burkhard-luethi-site]]
 ---
