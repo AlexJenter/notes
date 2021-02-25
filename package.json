@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "daily": "./.scripts/index.sh"
+    "daily": "cat werk/daily.md | codedown bash | bash"
   },
   "dependencies": {
-    "glob": "^7.1.6",
+    "codedown": "^2.1.6",
     "front-matter": "^4.0.2",
-    "ramda": "^0.27.1"
+    "glob": "^7.1.6",
+    "ramda": "^0.27.1",
+    "react": "^17.0.1"
   },
   "devDependencies": {},
   "repository": {

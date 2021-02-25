@@ -15,12 +15,14 @@
     "**/node_modules": true
   },
   "[markdown]": {
-    "editor.wordWrap": "off",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 80,
     "editor.quickSuggestions": true
   },
   "markdownlint.config": {
     "MD033": false,
-    "MD018": false
+    "MD018": false,
+    "first-line-h1": false
   },
   "align.by.regex.templates": {
     "csv": ", "
